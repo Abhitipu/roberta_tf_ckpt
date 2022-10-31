@@ -20,7 +20,7 @@ import argparse
 import json
 import torch
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 tf.enable_eager_execution()
 #from pytorch_transformers.modeling_bert import BertModel
 from bert.modeling import create_initializer
